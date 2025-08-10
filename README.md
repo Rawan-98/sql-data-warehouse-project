@@ -83,6 +83,6 @@ data-warehouse-project/
 ├── .gitignore                 # Git ignore file  
 └── requirements.txt           # Project dependencies
 
-⸻
+
 # License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.

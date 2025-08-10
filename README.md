@@ -65,24 +65,27 @@ For more details, refer to docs/requirements.md.
 
 data-warehouse-project/
 │
-├── datasets/                  # Raw ERP and CRM CSV data  
-├── docs/                      # Documentation & architecture diagrams  
-│   ├── etl.drawio             # ETL techniques and methods  
-│   ├── data_architecture.drawio # Project architecture  
-│   ├── data_catalog.md        # Dataset catalog with descriptions  
-│   ├── data_flow.drawio       # Data flow diagrams  
-│   ├── data_models.drawio     # Star schema models  
-│   ├── naming-conventions.md  # Naming conventions  
-├── scripts/                   # SQL ETL and transformation scripts  
-│   ├── bronze/                # Extract & load raw data  
-│   ├── silver/                # Clean & transform data  
-│   ├── gold/                  # Create analytical models  
-├── tests/                     # Test scripts and quality checks  
-├── README.md                  # Project overview & instructions  
-├── LICENSE                    # License info  
-├── .gitignore                 # Git ignore file  
-└── requirements.txt           # Project dependencies
-
+├── datasets/               # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                   # Project documentation and architecture details
+│   ├── etl.drawio          # Draw.io file showing ETL techniques and methods
+│   ├── data_architecture.drawio  # Project architecture diagram
+│   ├── data_catalog.md     # Dataset catalog and metadata
+│   ├── data_flow.drawio    # Data flow diagram
+│   ├── data_models.drawio  # Star schema models
+│   ├── naming-conventions.md # Naming guidelines
+│
+├── scripts/                # SQL scripts for ETL and transformations
+│   ├── bronze/             # Raw data extraction and loading
+│   ├── silver/             # Data cleaning and transformation
+│   ├── gold/               # Analytical model creation
+│
+├── tests/                  # Test scripts and quality files
+│
+├── README.md               # Project overview and instructions
+├── LICENSE                 # License details
+├── .gitignore              # Git ignore rules
+└── requirements.txt        # Project dependencies
 
 # License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
